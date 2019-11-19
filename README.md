@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Начало
 ## GIT
-Для начала работы с проектом, нужно заполучить его. [Подсказки тут](https://git-scm.com/book/ru/v2/GitHub-Внесение-собственного-вклада-в-проекты)Для этого нужно нажать справа-сверху:
+Для начала работы с проектом, нужно заполучить его. [Подсказки тут](https://git-scm.com/book/ru/v2/GitHub-Внесение-собственного-вклада-в-проекты)<br/>Для этого нужно нажать справа-сверху:
 ```
 fork
 ```
 Проект скопируется тебе на учетку, дальше тебе нужно скачать его и вносить изменения.
-Лучше всего использовать командную строку. [Подсказки тут](https://git-scm.com/book/ru/v1/Основы-Git-Создание-Git-репозитория) Используй:
+Лучше всего использовать командную строку. [Подсказки тут](https://git-scm.com/book/ru/v1/Основы-Git-Создание-Git-репозитория)<br/>Используй:
 
 git clone https://github.com/tvoyoimya/ib
 
@@ -30,15 +30,15 @@ npm start
 npm install module_name
 ```
 ## Работа с файлами
-В папке *img* хранятся картинки
-Все интересное в папке *pages*, там содержатся файлы для каждой странички
+В папке *img* хранятся картинки<br/>
+Все интересное в папке *pages*, там содержатся файлы для каждой странички<br/>
 Страницы разделяются на компоненты, например:
 * Header
 * FirstScreen
 * Features
 * Pricing
 * Footer
-Способы деления на компоненты, названия и проч определяется тобой, суть в том, чтобы было легче ориентироваться в коде
+<br/>Способы деления на компоненты, названия и проч определяется тобой, суть в том, чтобы было легче ориентироваться в коде
 Компоненты помещаются в папку *components*
 ### Добавление нового компонента
 Нужно создать новый файл с следующим содержимым:
@@ -80,9 +80,9 @@ import Main from './components/НазваниеСтраницы.js';
 Теперь можно будет зайти на страничку по адресу __localhost:3000/path_to_page__
 ### Особенности html в jsx
 При написании html кода в return'e функции компоненты нужно помнить, про эти особенности:
-`class="button button-danger"` -> `className="button button-danger"`
-`style="color: red; position: fixed"` -> `style={{"color": "white", "position": "fixed"}}`
-`onsubmit` -> `onSubmit`
+`class="button button-danger"` -> `className="button button-danger"`<br/>
+`style="color: red; position: fixed"` -> `style={{"color": "white", "position": "fixed"}}`<br/>
+`onsubmit` -> `onSubmit`<br/>
 И другое: [Заголовок html в jsx](https://medium.com/@stasonmars/подробное-руководство-по-jsx-в-react-6f7e4eecdba6)
 ## Available Scripts
 In the project directory, you can run:
