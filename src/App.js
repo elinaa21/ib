@@ -1,25 +1,20 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 /* PLACE TO IMPORT YOUR COMPONENTS */
-import Main from './pages/main.js';
-
-
-import '../src/scripts.js';
-import '../src/style.css';
+import Main from "./pages/main.js";
+import "../src/style.css";
 
 function App() {
   return (
     <BrowserRouter>
-        <Switch>
+      <Switch>
+        <Route exact path="/" component={Main} />
 
-            < Route exact path="/" component={ Main } />
+        {/* PLACE YOUR NEW PATHS TO COMPONENTS HERE */}
 
-            {/* PLACE YOUR NEW PATHS TO COMPONENTS HERE */}
-
-            {/* DEFAULT PATH: < Route component={ NotFound } /> :UNCOMMENT WHEN APPLIED*/}
-
-        </Switch>
+        {/* DEFAULT PATH: < Route component={ NotFound } /> :UNCOMMENT WHEN APPLIED*/}
+      </Switch>
     </BrowserRouter>
   );
 }
