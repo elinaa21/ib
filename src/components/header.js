@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const styles = {
-    'height': '200px',
-    "backgroundColor": "red"
-}
+  height: "200px",
+  backgroundColor: "red",
+  fontFamily: "Open Sans"
+};
 
-function Header (props) {
-    return (
-        <header style={styles}>
-            <h1>Some header</h1>
-        </header>
-    )
+function Header(props) {
+  return (
+    <header style={styles}>
+      <h1>The spectacle before us was indeed sublime.</h1>
+      <p> Some header</p>
+    </header>
+  );
 }
 
 export default Header;
