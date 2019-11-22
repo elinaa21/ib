@@ -1,11 +1,10 @@
 import React from 'react';
-import './normalize.css';
 import './about.css';
 import icon from '../../img/about_icon.png';
 import serv from '../../img/about_serv.png';
 
 
-function About (props) {
+function About () {
     return (
         <div className="about_main">
       <div className="about_header_all">
