@@ -1,6 +1,5 @@
-import React from "react";
-
-import Header from "../components/header.js";
+import React from 'react';
+import Header from '../components/header';
 
 function Main() {
   return (

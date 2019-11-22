@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const styles = {
-  height: "200px",
-  backgroundColor: "red",
-  fontFamily: "Open Sans"
+  height: '200px',
+  backgroundColor: 'red',
+  fontFamily: 'Open Sans',
 };
 
-function Header(props) {
+function Header() {
   return (
     <header style={styles}>
       <h1>The spectacle before us was indeed sublime.</h1>
