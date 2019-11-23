@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/header';
+import About from '../components/About';
 
 function Main() {
   return (
     <div>
-      <Header />
+      <About/>
     </div>
   );
 }
