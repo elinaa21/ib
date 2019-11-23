@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'normal';
+    font-weight: 400;
+    src: local('Open Sans'),
+        url('./static/fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'normal';
+    font-weight: 600;
+    src: local('Open Sans'),
+        url('./static/fonts/OpenSans-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'normal';
+    font-weight: 700;
+    src: local('Open Sans'),
+        url('./static/fonts/OpenSans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 'normal';
+    font-weight: 800;
+    src: local('Open Sans'),
+        url('./static/fonts/OpenSans-ExtraBold.woff') format('woff');
+}
+
 * {
-    font-family: 'Coda' !important;
+    font-family: 'Open Sans', sans-serif;
 }
