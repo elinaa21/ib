@@ -2,9 +2,12 @@ import React from 'react';
 import "./index.css";
 import LineF from '../../img/lineFooter.png';
 import EllipseFooter from '../../img/ellipseFooter.png';
+import Container from '../Container';
+
 
 function Footer (props) {
     return (
+        <Container>
         <footer>
             <div className="topFooter">
                 <div className = "firstFooter">
@@ -49,6 +52,8 @@ function Footer (props) {
             <div>Блог</div>
             </div>
         </footer>
+        </Container>
+
     )
 }
 

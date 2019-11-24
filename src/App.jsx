@@ -17,9 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <StyledButton maxWidth="xl">
           <Route exact path="/" component={Main} className="pageContainer" />
-        </StyledButton>
       </Switch>
     </BrowserRouter>
   );
