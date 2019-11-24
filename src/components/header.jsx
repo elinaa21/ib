@@ -10,7 +10,7 @@ function Header() {
   return (
     <header style={styles}>
       <h1>The spectacle before us was indeed sublime.</h1>
-      <p> Some header</p>
+      <p>Some header</p>
     </header>
   );
 }
