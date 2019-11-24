@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import { withStyles } from '@material-ui/core/styles';
 
-import Main from './pages/main';
+import Main from './pages/main.jsx';
 import './style.css';
 
 

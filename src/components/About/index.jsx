@@ -46,7 +46,6 @@ function About() {
         <img className="about_pic" src={serv} />
       </div>
       </Container>
-
   );
 }
 
