@@ -1,15 +1,15 @@
 import React from 'react';
 import  './style.css';
 import Item from './item.jsx';
-import  comp from '../static/pictures/comp.png';
-import icon1 from '../static/pictures/icon1.png';
-import icon2 from '../static/pictures/icon2.png';
-import icon3 from '../static/pictures/icon3.png';
-import icon4 from '../static/pictures/icon4.png';
-import icon5 from '../static/pictures/icon5.png';
-import icon6 from '../static/pictures/icon6.png';
+import  comp from '../../img/comp.png';
+import icon1 from '../../img/icon1.png';
+import icon2 from '../../img/icon2.png';
+import icon3 from '../../img/icon3.png';
+import icon4 from '../../img/icon4.png';
+import icon5 from '../../img/icon5.png';
+import icon6 from '../../img/icon6.png';
 
-function OurAdvantages () {
+function Advantages () {
     return (
         <div className='layer1'> 
             <img src={comp} alt="secure computer" className='computerImg'/>
@@ -38,4 +38,4 @@ function OurAdvantages () {
     )
 }
 
-export default OurAdvantages;
+export default Advantages;
