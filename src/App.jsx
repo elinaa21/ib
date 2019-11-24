@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Main from './pages/main';
+import Main from './pages/main.jsx';
 import './style.css';
 
 function App() {

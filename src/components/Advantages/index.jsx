@@ -1,5 +1,5 @@
 import React from 'react';
-import  './style.css';
+import  './index.css';
 import Item from './item.jsx';
 import  comp from '../../img/comp.png';
 import icon1 from '../../img/icon1.png';
