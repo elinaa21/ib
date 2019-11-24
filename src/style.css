@@ -33,3 +33,9 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+.pageContainer {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
