@@ -5,13 +5,18 @@ import Header from '../components/Header/index.jsx';
 import Footer from '../components/Footer/index.jsx';
 import Advantages from '../components/Advantages/index.jsx';
 
+const styles = {
+  'max-width': '1600px',
+  'margin': '0 auto',
+};
+
 function Main() {
   return (
-    <div>
-      <Header main={true} />
-      <About/>
+    <div style={styles}>
+      <Header />
+      <About />
       <Advantages />
-      <Footer main={true} />
+      <Footer />
     </div>
   );
 }

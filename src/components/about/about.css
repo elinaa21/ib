@@ -54,23 +54,3 @@
     display: flex;
     flex-direction: column;
 }
-
-.container {
-    max-width: 1600px;
-}
-
-
-@media (max-width: 1601px) {
-    .about_pic {
-        display: none;
-    }
-    
-    .about_content_all { 
-        align-items: center;
-    }
-
-    .about_content {
-        max-width: 100%;
-        margin: 0;
-    }
-}

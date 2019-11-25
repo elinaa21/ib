@@ -1,12 +1,9 @@
 import React from 'react';
 import Logo from '../../img/logo.png';
-import Container from '../Container';
-
 import './index.css';
 
 function Header() {
   return (
-    <Container className="container">
       <header>
         <div className="leftHeader">
           <img src={Logo} className="logo" alt="Logo" />
@@ -21,7 +18,6 @@ function Header() {
           <div>Личный кабинет</div>
         </div>
       </header>
-    </Container>
   );
 }
 

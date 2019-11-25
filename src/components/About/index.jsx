@@ -1,13 +1,10 @@
 import React from 'react';
-
-import Container from '../Container';
 import './about.css';
 import icon from '../../img/about_icon.png';
 import serv from '../../img/about_serv.png';
 
 function About() {
   return (
-    <Container>
       <div className="about_main">
         <div className="about_header_all">
           <img className="about_img" src={icon} />
@@ -45,7 +42,6 @@ function About() {
         </div>
         <img className="about_pic" src={serv} />
       </div>
-      </Container>
   );
 }
 
