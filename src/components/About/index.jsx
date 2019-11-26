@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './index.css';
 import icon from '../../img/about_icon.png';
 import serv from '../../img/about_serv.png';
 
