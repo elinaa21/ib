@@ -1,0 +1,48 @@
+.form {
+  font-size: 15px;
+  color: #fff;
+  background: url('../../img/regFormBackground.svg');
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formField {
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 26px;
+  line-height: 20px;
+  padding: 10px;
+  color: #757575;
+}
+
+.formTitle {
+  text-align: center;
+  padding-top: 87px;
+  margin-bottom: 35px;
+}
+
+.formButton {
+  margin-top: 30px;
+  margin-bottom: 140px;
+  background: linear-gradient(180deg, #DF24EF 0%, #E13386 100%);
+  max-width: 200px;
+  height: 41px;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formFieldPassword:after {
+  content: 'f';
+  background: url(../../img/passwordIcon.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+}
