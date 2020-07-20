@@ -1,2 +1,2 @@
 # Сайт-визитка
-![alt-текст](https://vk.com/doc98884312_562786879?hash=6371c8efd12fb5e84a&dl=447676568c4250b3b9)
+![alt-текст](./src/img/page.jpg)
